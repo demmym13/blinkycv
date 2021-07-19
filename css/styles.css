@@ -1,8 +1,14 @@
 a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
   color: #A3D2CA;
 }
 
 body {
+color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -12,18 +18,28 @@ h1 {
   color: #F05945;
   margin: 50px auto 0 auto;
   font-family: 'Kristi', cursive;
-  font-size: 5rem;
+  font-size: 7rem;
 }
 
 h2 {
   color: #5EAAA8;
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 2rem;
   font-weight: normal;
+  padding: 10px;
 }
 
 h3 {
   color: #A3D2CA;
   font-family: 'Julius Sans One', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  color: #EAF6F6;
+  margin: 80px auto;
+  width: 5%;
 }
 
 span {
@@ -32,15 +48,17 @@ span {
 
 /*** CLASSES ***/
 
+/*** Images ***/
+
 .cloud1 {
   position: absolute;
-  right: 350px;
-  top: 50px;
+  right: 300px;
+  top: 40px;
 }
 
 .cloud2 {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -53,24 +71,91 @@ span {
 .hornimage {
   float: right;
   margin-left: 30px;
+  padding-bottom: 5%;
   width: 25%;
 
 }
 
-.top {
+/*** Containers ***/
+
+.top-container {
   background-color: #F7F3E9;
-  padding: 20px;
+  padding: 100px 20px 0 20px;
   position: relative;
-  padding-top: 100px;
+
 }
 
-.middle {}
+.middle-container {
+  padding-top: 30px;
+}
 
-.bottom {}
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding: 20px 0 20px 0;
+}
+
+/*** Container sections ***/
+
+.profile {
+  line-height: 2;
+  margin: 10px auto ;
+  width: 30%;
+}
 
 .skill-row {
   line-height: 2;
-  margin: 100px auto;
+  margin: 80px auto;
   text-align: left;
   width: 50%;
+}
+
+.contact-me {
+line-height: 2;
+margin: auto;
+width: 40%;
+}
+
+/*** Button ***/
+.BUTTON_VLE {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 8px 15px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 25px auto 40px auto;
+}
+
+.BUTTON_VLE:hover {
+   background: #F05945;
+   border: solid #F05945 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*** Misc ***/
+.footer-link {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 3;
+  margin: auto 25px;
+
+}
+
+.credits {
+  font-family: serif;
+  font-size: 15px;
+  line-height: 0.75;
 }
